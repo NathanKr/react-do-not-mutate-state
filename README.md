@@ -3,7 +3,7 @@
  Here i will show a use case that fails when the state is mutated
 
 <h2>PureComponent<h2>
-PureComponent implements shouldComponentUpdate with a shallow prop and state comparison. Thus mutating the state and passing it as props to PureComponent will not issue render
+PureComponent implements shouldComponentUpdate with a shallow prop and state comparison. Thus mutating the state and passing it as props to PureComponent will not issue render because the current and previous props object reference is the same !!
 
 
 <h2>Setup</h2>
