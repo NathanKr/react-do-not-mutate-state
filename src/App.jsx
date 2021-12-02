@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import Item from './Item'
+import Items from './Items'
 
 class App extends Component {
     state = {
@@ -32,7 +32,7 @@ class App extends Component {
         </button>
         <br />
         <button style={{color:'red'}} onClick={this.addItemWithStateMutation}>Add item : state mutation (wrong)</button>
-        <Item numbers={this.state.numbers} />
+        <Items numbers={this.state.numbers} />
       </div>
     );
   }

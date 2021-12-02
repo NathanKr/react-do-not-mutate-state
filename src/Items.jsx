@@ -1,6 +1,6 @@
 import { PureComponent } from "react";
 
-class Item extends PureComponent {
+class Items extends PureComponent {
   render() {
     return (
       <ul>
@@ -12,4 +12,4 @@ class Item extends PureComponent {
   }
 }
 
-export default Item;
+export default Items;
